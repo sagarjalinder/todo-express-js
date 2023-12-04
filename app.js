@@ -6,7 +6,7 @@ const format = require("date-fns/format");
 const isMatch = require("date-fns/isMatch");
 const isValid = require("date-fns/isValid");
 
-const dbPath = path.join(__dirname, "cricketMatchDetails.db");
+const dbPath = path.join(__dirname, "todoApplication.db");
 
 const app = express();
 
